@@ -1,0 +1,32 @@
+{
+  "name": "ose-rpi",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": "Jan Snasel <snaselj@gmail.com>",
+  "description": "Open Smart Environment Media extension for controling Raspberry PIs",
+  "contributors": [
+    {
+      "name": "Jan Snasel",
+      "email": "snaselj@gmail.com"
+    },
+    {
+      "name": "Fred Rooks",
+      "email": "fred@fredrooks.com"
+    }
+  ],
+  "main": "./lib/index",
+  "keywords": [
+    "open smart environment",
+    "home automation",
+    "raspberry pi",
+    "camera"
+  ],
+  "dependencies": {
+    "raspicam": "*"
+  },
+  "license": "GPL-3.0+",
+  "devDependencies": {
+    "onoff": "~0.3.2",
+    "raspicam": "~0.2.13"
+  }
+}
