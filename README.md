@@ -3,6 +3,8 @@
 This package contains [entry kinds](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html) for integrating hardware from
 the Raspberry Pi Foundation into OSE.
 
+See [bundle.rpi](http://opensmartenvironment.github.io/doc/modules/bundle.rpi.html) example application
+
 ## Status
 - Pre-alpha stage (insecure and buggy)
 - Unstable API
@@ -10,7 +12,8 @@ the Raspberry Pi Foundation into OSE.
 - No test suite
 
 This is not yet a piece of download-and-use software. Its important
-to understand the basic principles covered by this documentation.
+to understand the basic principles covered by the
+[documentation](http://opensmartenvironment.github.io/doc/).
 
 Use of this software is currently recommended only for users that
 wish participate in the development process, see
