@@ -39,7 +39,7 @@ Module [Raspberry PI camera kind](http://opensmartenvironment.github.io/doc/clas
 
 ### Raspberry PI kind
 [Entry kind](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html) describing Raspberry PI boards. It is possible to
-control GPIO pins using the [Pins](http://opensmartenvironment.github.io/doc/modules/control.pin.html) class.
+control GPIO pins using the [Pins](http://opensmartenvironment.github.io/doc/modules/control.pin.html) component.
 
 Module [Raspberry PI kind](http://opensmartenvironment.github.io/doc/classes/rpi.lib.rpi.html) reference ... 
 
