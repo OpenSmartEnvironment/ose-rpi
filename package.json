@@ -26,11 +26,8 @@
     "camera"
   ],
   "dependencies": {
-    "raspicam": "*"
-  },
-  "license": "GPL-3.0+",
-  "devDependencies": {
     "onoff": "~0.3.2",
     "raspicam": "~0.2.13"
-  }
+  },
+  "license": "GPL-3.0+"
 }
