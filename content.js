@@ -10,10 +10,10 @@ exports = require('ose')
  */
 
 /**
- * @caption OSE Raspberry content
+ * @caption Raspberry content
  *
  * @readme
- * Provides files of OSE Raspberry package to the browser.
+ * Provides files of [ose-rpi] package to the browser.
  *
  * @class rpi.content
  * @type singleton

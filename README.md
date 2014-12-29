@@ -1,9 +1,12 @@
-# Open Smart Environment Raspberry Pi package
+# Open Smart Environment - Raspberry Pi
+This package is a part of OSE suite.
+The main advantage of OSE is the easy creation of applications
+consisting of multiple instances working as a single whole. The
+objective is to develop an all-encompassing personal mesh running
+various devices including HTPCs, phones, tablets, workstations,
+servers, Raspberry Pis, home automation gadgets, wearables, drones etc.
 
-This package contains [entry kinds](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html) for integrating hardware from
-the Raspberry Pi Foundation into OSE.
-
-See [bundle.rpi](http://opensmartenvironment.github.io/doc/modules/bundle.rpi.html) example application
+For more information about OSE see **the [documentation](http://opensmartenvironment.github.io/doc/)**.
 
 ## Status
 - Pre-alpha stage (insecure and buggy)
@@ -17,52 +20,24 @@ to understand the basic principles covered by the
 
 Use of this software is currently recommended only for users that
 wish participate in the development process, see
-[Contributions](#contributions).
+[contributions](http://opensmartenvironment.github.io/doc/#contrib).
 
-## Getting started
-To get started with OSE, refer to the [ose-bundle](http://opensmartenvironment.github.io/doc/modules/bundle.html) package and
-[Media player example application](http://opensmartenvironment.github.io/doc/modules/bundle.media.html). You can read the entire OSE
-documentation [here]( http://opensmartenvironment.github.io/doc).
+## Platforms
+OSE is developed in JavaScript on the following platforms.
+- Node.js (>0.10) running on Debian Jessie and Raspbian
+- recent versions of Firefox
+- recent versions of Chromium/Chrome
 
-## Modules
-Open Smart Environment Raspberry Pi package consists of the following modules:
-- Raspberry PI camera kind
-- Raspberry PI kind
-- OSE Raspberry core
-- OSE Raspberry content
+It, however, probably also runs on other recent browsers and Linux
+distributions.
 
-### Raspberry PI camera kind
-[Entry kind](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html) describing Raspberry PI cameras. It uses the raspicam
-npm package to take pictures.
+## Package description
+This package contains [entry kinds] for integrating hardware from
+the Raspberry Pi Foundation into OSE.
 
-Module [Raspberry PI camera kind](http://opensmartenvironment.github.io/doc/classes/rpi.lib.camera.html) reference ... 
+See [Raspberry Pi example].
 
-### Raspberry PI kind
-[Entry kind](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html) describing Raspberry PI boards. It is possible to
-control GPIO pins using the [Pins](http://opensmartenvironment.github.io/doc/modules/control.pin.html) component.
-
-Module [Raspberry PI kind](http://opensmartenvironment.github.io/doc/classes/rpi.lib.rpi.html) reference ... 
-
-### OSE Raspberry core
-Core singleton of ose-rpi npm package. Registers [entry kinds](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html)
-defined by this package to the `"control"` [scope](http://opensmartenvironment.github.io/doc/classes/ose.lib.scope.html).
-
-Module [OSE Raspberry core](http://opensmartenvironment.github.io/doc/classes/rpi.lib.html) reference ... 
-
-### OSE Raspberry content
-Provides files of OSE Raspberry package to the browser.
-
-Module [OSE Raspberry content](http://opensmartenvironment.github.io/doc/classes/rpi.content.html) reference ... 
-
-## <a name="contributions"></a>Contributions
-To get started contributing or coding, it is good to read about the
-two main npm packages [ose](http://opensmartenvironment.github.io/doc/modules/ose.html) and [ose-bb](http://opensmartenvironment.github.io/doc/modules/bb.html).
-
-This software is in the pre-alpha stage. At the moment, it is
-premature to file bugs. Input is, however, much welcome in the form
-of ideas, comments and general suggestions.  Feel free to contact
-us via
-[github.com/opensmartenvironment](https://github.com/opensmartenvironment).
+The documentation for "ose-rpi" package can be found **[here](http://opensmartenvironment.github.io/doc/#ose-rpi#)**.
 
 ## Licence
 This software is released under the terms of the [GNU General
