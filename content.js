@@ -1,9 +1,7 @@
 'use strict';
 
-exports = require('ose')
-  .singleton(module, 'ose/lib/http/content')
-  .exports
-;
+var O = require('ose').object(module, Init, 'ose/lib/http/content');
+exports = O.init();
 
 /** Docs  {{{1
  * @module rpi
@@ -21,11 +19,13 @@ exports = require('ose')
  */
 
 // Public {{{1
-exports.addFiles = function() {
+function Init() {  // {{{2
+  O.super.call(this);
+
   this.addModule('lib/index');
   this.addModule('lib/camera/index');
-  this.addModule('lib/camera/bb/detail');
+  this.addModule('lib/camera/gaia/detail');
   this.addModule('lib/rpi/index');
-  this.addModule('lib/rpi/bb/detail');
-  this.addModule('lib/rpi/bb/listDetail');
+  this.addModule('lib/rpi/gaia/detail');
+  this.addModule('lib/rpi/gaia/listDetail');
 };
