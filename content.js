@@ -24,8 +24,8 @@ function Init() {  // {{{2
 
   this.addModule('lib/index');
   this.addModule('lib/camera/index');
-  this.addModule('lib/camera/gaia/detail');
+  this.addModule('lib/camera/html5/detail');
   this.addModule('lib/rpi/index');
-  this.addModule('lib/rpi/gaia/detail');
-  this.addModule('lib/rpi/gaia/listDetail');
+  this.addModule('lib/rpi/html5/detail');
+//  this.addModule('lib/rpi/gaia/listDetail');
 };
