@@ -1,6 +1,6 @@
 'use strict';
 
-var O = require('ose').object(module, Init, 'ose/lib/http/content');
+var O = require('ose').object(module, 'ose/lib/http/content');
 exports = O.init();
 
 /** Docs  {{{1
@@ -19,13 +19,7 @@ exports = O.init();
  */
 
 // Public {{{1
-function Init() {  // {{{2
-  O.super.call(this);
+exports.addModule('lib/index');
+exports.addModule('lib/camera/index');
+exports.addModule('lib/rpi/index');
 
-  this.addModule('lib/index');
-  this.addModule('lib/camera/index');
-  this.addModule('lib/camera/html5/detail');
-  this.addModule('lib/rpi/index');
-  this.addModule('lib/rpi/html5/detail');
-//  this.addModule('lib/rpi/gaia/listDetail');
-};
