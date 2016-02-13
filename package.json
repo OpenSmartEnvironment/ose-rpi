@@ -25,7 +25,7 @@
     "camera"
   ],
   "dependencies": {
-    "onoff": "^1.0.2"
+    "onoff": "^1.0.4"
   },
   "license": "GPL-3.0+"
 }
