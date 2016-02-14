@@ -1,6 +1,6 @@
 {
   "name": "ose-rpi",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "author": "Jan Snasel <snaselj@gmail.com>",
   "description": "Open Smart Environment Raspberry Pi package",
   "contributors": [
